@@ -1,0 +1,69 @@
+.containers{
+    height: 100%;
+    width: 100%;
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        margin: 1rem;
+        .title{
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2rem;
+        }
+
+        .icon{
+            cursor: pointer;
+            .fa{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+   .dialog-continer {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 9;
+        visibility: visible;
+        opacity: 1;      
+        transition: opacity 0.2s ease-in; 
+      
+        .fadeIn{
+            opacity: 1;
+            transition: opacity 0.15s linear;
+        }
+      
+      .dialog{
+        max-width: 50%;
+        max-height: 90%;
+         position: relative;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 10% auto;
+
+        .delete-message{
+          width: 40%;
+          height: 70%;
+          margin: 2rem;
+        }
+
+        .title{
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2rem;
+        }
+
+        .btn{
+            margin-left: 0.5rem;
+        }
+      }
+    }
+}

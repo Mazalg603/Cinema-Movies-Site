@@ -1,0 +1,22 @@
+<div class="containers">
+	<div class="sub-container">
+		<div class="content">
+			<div class="top-sub_title">
+				<p class="sub_title">{{movie.Title}}</p>
+				<div class="button">
+					<ng-content select=".edit"></ng-content>
+					<ng-content select=".trash"></ng-content>
+				</div>
+			</div>
+			<h1 class="title">
+				{{movie.Director}}
+			</h1>
+			<p class="text">
+				{{movie.Genre}}
+			</p>
+		</div>
+		<a href="#0" class="link">
+			{{movie.Year}} , {{movie.Runtime}}
+		</a>
+	</div>
+</div>
