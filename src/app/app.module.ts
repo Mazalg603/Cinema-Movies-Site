@@ -10,7 +10,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // INTERNAL MODULES
 import { AppRoutingModule } from './app-routing.module';
-import { FeaturesModule } from './features/features.module';
 
 // COMPONENTS
 import { AppComponent } from './app.component';
@@ -32,8 +31,7 @@ import { MoviesEffects } from './core/effects/movies.effects';
     BrowserAnimationsModule,
     HttpModule,
     HttpClientModule,
-    AppRoutingModule,
-    FeaturesModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
