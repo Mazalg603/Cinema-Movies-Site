@@ -7,11 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy": "gh-pages -d dist"
+    "e2e": "ng e2e"
   },
-  "private": true,
-  "homepage":"https://mazalg603.github.io/Cinema-Movies-Site/",
   "dependencies": {
     "@angular/animations": "~7.1.0",
     "@angular/common": "~7.1.0",
