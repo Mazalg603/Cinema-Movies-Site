@@ -28,7 +28,6 @@ export class MoviesComponent implements OnInit, OnDestroy {
     this.store.dispatch(new MoviesActions.LoadMovies());
     this.subGetMoviesList = this.store.pipe(select(getMoviesList)).subscribe((movies) => {
       if (movies.length) {
-        console.log(movies);
         this.moviesList = movies;
       }
     });
