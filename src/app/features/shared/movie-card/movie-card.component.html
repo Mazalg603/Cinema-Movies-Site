@@ -1,5 +1,7 @@
 <div class="containers">
 	<div class="sub-container">
+		<!--  [alt]="movie.imdbID" -->
+		<img class="movie-img" src="/assets/img/movies/{{movie.imdbID}}.jpg"/>
 		<div class="content">
 			<div class="top-sub_title">
 				<p class="sub_title">{{movie.Title}}</p>
@@ -14,9 +16,9 @@
 			<p class="text">
 				{{movie.Genre}}
 			</p>
+			<a href="#0" class="link">
+				{{movie.Year}} , {{movie.Runtime}}
+			</a>
 		</div>
-		<a href="#0" class="link">
-			{{movie.Year}} , {{movie.Runtime}}
-		</a>
 	</div>
 </div>

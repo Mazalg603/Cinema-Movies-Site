@@ -6,6 +6,7 @@ import { AppState } from './../../../core/reducers/index';
 import { getMoviesList } from './../../../core/selectors/movies.selectors';
 import { Movie } from './../../../shared/models/movie';
 import * as MoviesActions from '../../../core/actions/movies.actions';
+import { Guid } from './../../../shared/utils/guid';
 
 @Component({
   selector: 'app-movies',
@@ -27,6 +28,7 @@ export class MoviesComponent implements OnInit, OnDestroy {
     this.store.dispatch(new MoviesActions.LoadMovies());
     this.subGetMoviesList = this.store.pipe(select(getMoviesList)).subscribe((movies) => {
       if (movies.length) {
+        console.log(movies);
         this.moviesList = movies;
       }
     });
@@ -61,6 +63,7 @@ export class MoviesComponent implements OnInit, OnDestroy {
     });
     if (!index) {
       if (this.isNewMovie) {
+        movie.imdbID = Guid.generate();
         this.store.dispatch(new MoviesActions.AddMovie(movie));
       } else {
         this.store.dispatch(new MoviesActions.EditMovie(movie));
@@ -75,6 +78,7 @@ export class MoviesComponent implements OnInit, OnDestroy {
 
   public openDialog() {
     this.formDialogOpne = true;
+    this.isNewMovie = true;
     this.movieObj = <Movie>{};
   }
 

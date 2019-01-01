@@ -1,72 +1,72 @@
 .containers{
   height: 100%;
   width: 100%;
+
   .sub-container{
-    // width: 22.5rem;
-    // height: 12rem;
+    width: 25rem;
+    height: 30rem;
     overflow: hidden;
     border-radius: 8px;
-    margin: 1rem;
     position: relative;
-    background-color: #fff;
+    background-color:#1e1b26;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
     transition: all 0.25s ease-in;
     border-bottom: 5px solid transparent;
     
     &:hover{
       transform: translateY(-5px);
-      border: none;
-      border-bottom: 5px solid #f7bb43;
+    }
+    .movie-img {
+      width:100%;
+      height:20rem;
+      -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+          color-stop(0.00,  rgba(0,0,0,1)),
+          color-stop(0.35,  rgba(0,0,0,1)),
+          color-stop(0.50,  rgba(0,0,0,1)),
+          color-stop(0.65,  rgba(0,0,0,1)),
+          color-stop(0.85,  rgba(0,0,0,0.6)),
+          color-stop(1.00,  rgba(0,0,0,0)));
+      position:relative;
     }
     .content{
       padding: 1rem;
       padding-bottom: 0;
 
       .top-sub_title{
-        margin-bottom: 1rem;
-        font-size: 1.25rem;
-        font-weight: 500;
-        color: rgba(0, 0, 0, 0.3);
-        letter-spacing: 2px;
+        font-weight: 400;
         display: flex;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
         flex-direction: row;
         justify-content: space-between;
       }
 
       .title{
         line-height: 1.25;
-        font-family: 'Lora', serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 1.20rem;
-        margin-top: 0;
-        margin-bottom: 1rem;
+        color:darken( #e7e7e7, 30% );  
+        text-align: justify;
       }
 
       .text{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+        color:darken( #e7e7e7, 30% );  
+      }
+
+      .link{
+        display: inline-blick;
+        font-family: 'Open Sans', sans-serif;
+        color:darken( #e7e7e7, 30% );  
         margin-bottom: 1rem;
+        text-decoration: none;
+        outline: none;
+        transition: all 0.25s ease-in; 
       }
     }
 
-    .link{
-      display: inline-blick;
-      font-weight: 500;
-      letter-spacing: 2px;
-      margin-left: 2rem;
-      margin-bottom: 1rem;
-      text-decoration: none;
-      outline: none;
-      color: #d8a135;
-      transition: all 0.25s ease-in; 
-      text-align: center;
-      &:hover,
-      &:focus,
-      &:active {
-        color: #a37314;
-      }
-    }
 
   }
 }
-
-
-
 

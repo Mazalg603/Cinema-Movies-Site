@@ -1,12 +1,10 @@
-<div class="containers">
-  <div class="lists">
-    <div class="cards" *ngFor="let movie of moviesList">
-      <div class="movie" *ngIf="movie">
+<div class="cards-container">
+    <div *ngFor="let movie of moviesList">
+      <div class="card-item" *ngIf="movie">
         <app-movie-card [movie]="movie">
           <a class="edit" (click)="editMovie(movie)"><i class="fa fa-edit"></i></a>
           <a class="trash" (click)="deleteMovie(movie)"><i class="fa fa-trash"></i></a>
         </app-movie-card>
       </div>
     </div>
-  </div>
 </div>

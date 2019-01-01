@@ -4,6 +4,7 @@ export const titles = [
     'O anthropos pou gyrise apo ti zesti',
     'Apo pou pane gia ti havouza',
     'O dimos apo ta Trikala',
+    'The Love Song of M. Anderson Vincent',
     'O anthropos pou gyrise apo ta piata!',
     'Gefsi apo... Ellada!',
     'Granita apo melani',
@@ -14,13 +15,17 @@ export const titles = [
     'B-Movie: The Shooting of "Farmhouse Massacre"',
     'A Day in the Death of Donny B.',
     'The Nina B. Affair',
-    'Girls of the "B" Movies',
     'The Cruise of the Jasper B',
     'Brown Bag Diaries: Ridin the Blinds in B Minor',
     'Brace for Impact: The Chesley B. Sullenberger Story',
-    'Attack of the Killer B-Movies'
+    'Attack of the Killer B-Movies',
+    'K-On! The Movie',
+    'K-20: The Fiend with Twenty Faces',
+    'Detective K: Secret of the Lost Island',
+    'The Gospel According to Philip K. Dick',
+    'Detective K: Secret of the Living Dead',
+    'The Great K & A Train Robbery',
+    'Kenny Powers: The K-Swiss MFCEO',
+    'Azorian: The Raising of the K-129',
+    'K-19: The Widowmaker'
 ];
-
-// export type TITELS = typeof titles;
-
-

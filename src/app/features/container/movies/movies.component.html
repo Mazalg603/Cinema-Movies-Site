@@ -3,25 +3,23 @@
     <p class="title">Cinema Movies Site</p>
     <a class="icon" (click)="openDialog()"><i class="fa fa-plus-circle"></i></a>
   </div>
-  <div *ngIf="moviesList">
+  <div class="list" *ngIf="moviesList">
     <app-movies-list [moviesList]="moviesList" (editMovieHendler)="editMovieHendler($event)" (deleteMovieHendler)="deleteMovieHendler($event)"></app-movies-list>
   </div>
-  <div>
-    <div class="dialog-continer fadeIn" *ngIf="formDialogOpne || deleteDialogOpne">
-      <div class="dialog">
-        <div class="form" *ngIf="formDialogOpne">
-          <app-movie-form [movieObj]="movieObj" [errorMessege]="errorMessege" (movieHendler)="saveMovieHendler($event)">
-            <h3 class="title">{{isNewMovie? 'Add new movie form': 'Edit movie form'}}</h3>
-            <a id="close" (click)="formDialogOpne = !formDialogOpne"><i class="fa fa-close"></i></a>
-            <button class="save btn btn-primary" type="submit">{{isNewMovie? 'Add movie': 'save movie'}}</button>
-            <button class="cancel btn btn-secondary" (click)="formDialogOpne = !formDialogOpne">Cancel</button>
-          </app-movie-form>
-        </div>
-        <div class="delete-message" *ngIf="deleteDialogOpne">
-          <h1 class="title">Will delete the movie?</h1>
-          <button class="btn btn-primary" (click)="deleteMovie()">Ok</button>
-          <button class="btn btn-secondary" (click)="deleteDialogOpne = !deleteDialogOpne">Cancel</button>
-        </div>
+  <div class="dialog-continer fadeIn" *ngIf="formDialogOpne || deleteDialogOpne">
+    <div class="dialog">
+      <div class="form" *ngIf="formDialogOpne">
+        <app-movie-form [movieObj]="movieObj" [errorMessege]="errorMessege" (movieHendler)="saveMovieHendler($event)">
+          <h3 class="title">{{isNewMovie? 'Add new movie form': 'Edit movie form'}}</h3>
+          <a id="close" (click)="formDialogOpne = !formDialogOpne"><i class="fa fa-close"></i></a>
+          <button class="save btn btn-primary" type="submit">{{isNewMovie? 'Add movie': 'save movie'}}</button>
+          <button class="cancel btn btn-secondary" (click)="formDialogOpne = !formDialogOpne">Cancel</button>
+        </app-movie-form>
+      </div>
+      <div class="delete-message" *ngIf="deleteDialogOpne">
+        <h1 class="title">Will delete the movie?</h1>
+        <button class="btn btn-primary" (click)="deleteMovie()">Ok</button>
+        <button class="btn btn-secondary" (click)="deleteDialogOpne = !deleteDialogOpne">Cancel</button>
       </div>
     </div>
   </div>
