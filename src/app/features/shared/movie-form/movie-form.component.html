@@ -8,32 +8,33 @@
       <div class="input-box form-group">
         <label class="label" for="title">Title</label>
         <input class="input form-control" id="title" name="title" type="text" required placeholder="Movie title"
-          [ngModel]="movieObj.Title | title" (ngModelChange)="movieObj.Title=$event"/>
+          [ngModel]="movieObj.Title | title" (ngModelChange)="movieObj.Title=$event" />
+        <p class="error" *ngIf="errorMesseges.title">{{errorMesseges.title}}</p>
       </div>
       <div class="input-box form-group">
         <label class="label" for="director">Director</label>
         <input class="input form-control" id="director" name="director" type="text" required placeholder="Movie director"
           [(ngModel)]="movieObj.Director" />
+        <p class="error" *ngIf="errorMesseges.director">{{errorMesseges.director}}</p>
       </div>
       <div class="input-box form-group">
         <label class="label" for="genre">Genre</label>
         <input class="input form-control" id="genre" name="genre" type="text" placeholder="Movie genre" [(ngModel)]="movieObj.Genre" />
+        <p class="error" *ngIf="errorMesseges.genre">{{errorMesseges.genre}}</p>
       </div>
       <div class="input-box form-group">
         <label class="label" for="year">Year</label>
-        <input class="input form-control" id="year" name="year" type="number" min="1900" max="2099" required
-          [(ngModel)]="movieObj.Year" />
+        <input class="input form-control" id="year" name="year" type="text" required [(ngModel)]="movieObj.Year" />
+        <p class="error" *ngIf="errorMesseges.year">{{errorMesseges.year}}</p>
       </div>
       <div class="input-box form-group">
         <label class="label" for="runtime">Runtime</label>
         <input class="input form-control" id="runtime" name="runtime" type="text" required [(ngModel)]="movieObj.Runtime" />
+        <p class="error" *ngIf="errorMesseges.runtime">{{errorMesseges.runtime}}</p>
       </div>
       <div class="button">
         <ng-content select=".save"></ng-content>
         <ng-content select=".cancel"></ng-content>
-      </div>
-      <div *ngIf="errorMessege">
-        <p>{{errorMessege}}</p>
       </div>
     </form>
   </div>

@@ -3,23 +3,60 @@
     <p class="title">Cinema Movies Site</p>
     <a class="icon" (click)="openDialog()"><i class="fa fa-plus-circle"></i></a>
   </div>
-  <div class="list" *ngIf="moviesList">
-    <app-movies-list [moviesList]="moviesList" (editMovieHendler)="editMovieHendler($event)" (deleteMovieHendler)="deleteMovieHendler($event)"></app-movies-list>
+  <div class="content">
+    <div class="side-manu">
+      <div class="search">
+        <form class="form-inline active-purple-4">
+          <input class="form-control form-control-sm mr-3 w-75" type="text" [(ngModel)]="searchTitle" name="searchTitle"
+            placeholder="Serach any fields" aria-label="Search">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </form>
+      </div>
+      <div>
+        <div>
+          <p>Filter by genre</p>
+          <a id="close" (click)="cancelCheckedGrenres()"><i class="fa fa-close"></i></a>
+        </div>
+        <div class="filter">
+          <div class="checkbox" *ngFor="let genre of filteGrenres">
+            <label><input type="checkbox" [(ngModel)]="genre.checked" [value]="genre.value">{{genre.value}}</label>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="list" *ngIf="moviesList">
+      <app-movies-list [moviesList]="moviesList | titlesSearch: searchTitle | genreFilter: checkedGrenres()"
+        (editMovieHendler)="editMovieHendler($event)" (deleteMovieHendler)="deleteMovieHendler($event)"></app-movies-list>
+    </div>
   </div>
   <div class="dialog-continer fadeIn" *ngIf="formDialogOpne || deleteDialogOpne">
     <div class="dialog">
       <div class="form" *ngIf="formDialogOpne">
-        <app-movie-form [movieObj]="movieObj" [errorMessege]="errorMessege" (movieHendler)="saveMovieHendler($event)">
+        <app-movie-form [movieObj]="movieObj" [errorMesseges]="movieHelper.movieErorrs" (movieHendler)="saveMovieHendler($event)">
           <h3 class="title">{{isNewMovie? 'Add new movie form': 'Edit movie form'}}</h3>
-          <a id="close" (click)="formDialogOpne = !formDialogOpne"><i class="fa fa-close"></i></a>
+          <a id="close" (click)="resetProperties()"><i class="fa fa-close"></i></a>
           <button class="save btn btn-primary" type="submit">{{isNewMovie? 'Add movie': 'save movie'}}</button>
-          <button class="cancel btn btn-secondary" (click)="formDialogOpne = !formDialogOpne">Cancel</button>
+          <button class="cancel btn btn-secondary" (click)="resetProperties()">Cancel</button>
         </app-movie-form>
       </div>
       <div class="delete-message" *ngIf="deleteDialogOpne">
-        <h1 class="title">Will delete the movie?</h1>
-        <button class="btn btn-primary" (click)="deleteMovie()">Ok</button>
-        <button class="btn btn-secondary" (click)="deleteDialogOpne = !deleteDialogOpne">Cancel</button>
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="icon-box">
+              <i class="fa fa-times"></i>
+            </div>
+            <h4 class="modal-title">Are you sure?</h4>
+            <button type="button" class="close" (click)="deleteDialogOpne = !deleteDialogOpne">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>Do you really want to delete these movie? This process cannot be undone.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info" (click)="deleteDialogOpne = !deleteDialogOpne">Cancel</button>
+            <button type="button" class="btn btn-danger" (click)="deleteMovie()">Delete</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>

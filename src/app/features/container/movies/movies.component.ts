@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Store, select } from '@ngrx/store';
 import { Subscription } from 'rxjs';
-import { MoviesService } from '../../../shared/services/movies.service';
+import { MovieHelperService } from './../../shared/services/movie-helper.service';
 import { AppState } from './../../../core/reducers/index';
 import { getMoviesList } from './../../../core/selectors/movies.selectors';
 import { Movie } from './../../../shared/models/movie';
@@ -22,7 +22,10 @@ export class MoviesComponent implements OnInit, OnDestroy {
   public formDialogOpne = false;
   public deleteDialogOpne = false;
   public errorMessege: string;
-  constructor(private store: Store<AppState>) { }
+  public searchTitle: string;
+  public filteGrenres: any[];
+
+  constructor(private store: Store<AppState>, private movieHelper: MovieHelperService) { }
 
   ngOnInit() {
     this.store.dispatch(new MoviesActions.LoadMovies());
@@ -31,6 +34,24 @@ export class MoviesComponent implements OnInit, OnDestroy {
         this.moviesList = movies;
       }
     });
+
+    this.filteGrenres = [
+      { value: 'Action', checked: false },
+      { value: 'Adventure', checked: false },
+      { value: 'Drama', checked: false },
+      { value: 'Thriller', checked: false },
+      { value: 'Comedy', checked: false },
+      { value: 'Documentary', checked: false },
+      { value: 'Crime', checked: false },
+      { value: 'Horror', checked: false },
+      { value: 'Short', checked: false },
+      { value: 'Romance', checked: false },
+      { value: 'Animation', checked: false },
+      { value: 'Sci-Fi', checked: false },
+      { value: 'Western', checked: false },
+      { value: 'History', checked: false },
+      { value: 'War', checked: false }
+    ];
 
   }
 
@@ -57,21 +78,15 @@ export class MoviesComponent implements OnInit, OnDestroy {
   }
 
   public saveMovieHendler(movie) {
-    const index = this.moviesList.find((item) => {
-      return item.Title === movie.Title;
-    });
-    if (!index) {
-      if (this.isNewMovie) {
+    if (this.movieHelper.validateMovie(movie)) {
+      if (this.isNewMovie && (this.movieHelper.titleIsExist(this.moviesList, movie.Title) === -1)) {
         movie.imdbID = Guid.generate();
         this.store.dispatch(new MoviesActions.AddMovie(movie));
-      } else {
+        this.resetProperties();
+      } if (!this.isNewMovie) {
         this.store.dispatch(new MoviesActions.EditMovie(movie));
+        this.resetProperties();
       }
-      this.formDialogOpne = false;
-      this.movieObj = <Movie>{};
-      this.errorMessege = null;
-    } else {
-      this.errorMessege = 'Movie title is already exist';
     }
   }
 
@@ -79,6 +94,20 @@ export class MoviesComponent implements OnInit, OnDestroy {
     this.formDialogOpne = true;
     this.isNewMovie = true;
     this.movieObj = <Movie>{};
+  }
+
+  public checkedGrenres() {
+    return this.filteGrenres.filter(grenre => grenre.checked);
+  }
+
+  public cancelCheckedGrenres() {
+    this.filteGrenres.filter(grenre => grenre.checked = false);
+  }
+
+  public resetProperties() {
+    this.formDialogOpne = false;
+    this.movieObj = <Movie>{};
+    this.movieHelper.movieErorrs = this.movieHelper.resetErorrs();
   }
 
 }

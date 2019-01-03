@@ -12,7 +12,11 @@ import { MoviesListComponent } from './components/movies-list/movies-list.compon
 import { MovieCardComponent } from './shared/movie-card/movie-card.component';
 
 import { MoviesService } from '../shared/services/movies.service';
+import { MovieHelperService } from './shared/services/movie-helper.service';
 import { TitlePipe } from '../shared/pipes-filters/title.pipe';
+import { SearchPipe } from '../shared/pipes-filters/search.pipe';
+import { GenreFilterPipe } from './../shared/pipes-filters/genre-filter.pipe';
+
 
 const routes: Routes = [
     { path: '', component: MoviesComponent }
@@ -30,13 +34,16 @@ const routes: Routes = [
         MovieFormComponent,
         MoviesListComponent,
         MovieCardComponent,
-        TitlePipe
+        TitlePipe,
+        SearchPipe,
+        GenreFilterPipe
     ],
     exports: [
         MoviesComponent
     ],
     providers: [
-        MoviesService
+        MoviesService,
+        MovieHelperService
     ]
 })
 export class FeaturesModule { }

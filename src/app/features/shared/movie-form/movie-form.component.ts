@@ -9,7 +9,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class MovieFormComponent implements OnInit {
 
   @Input() movieObj: Movie = <Movie>{};
-  @Input() errorMessege: string;
+  @Input() errorMesseges: string;
 
   @Output() movieHendler = new EventEmitter<Movie>();
 
@@ -23,4 +23,5 @@ export class MovieFormComponent implements OnInit {
       this.movieHendler.emit(this.movieObj);
     }
   }
+
 }
