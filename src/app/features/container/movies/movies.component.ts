@@ -21,7 +21,7 @@ export class MoviesComponent implements OnInit, OnDestroy {
   private subGetMoviesList: Subscription;
   public formDialogOpne = false;
   public deleteDialogOpne = false;
-  public errorMessege: string;
+  public errorMessege: any;
   public searchTitle: string;
   public filteGrenres: any[];
 
