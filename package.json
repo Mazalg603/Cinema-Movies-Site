@@ -4,11 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href https://mazalg603.github.io/Cinema-Movies-Site/",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "ngh":"ngh --dir dist/CinemaSite"
+    "e2e": "ng e2e"
   },
   "dependencies": {
     "@angular/animations": "~7.1.0",
