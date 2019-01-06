@@ -9,7 +9,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class MovieFormComponent implements OnInit {
 
   @Input() movieObj: Movie = <Movie>{};
-  @Input() errorMesseges: string;
+  @Input() errorMesseges: any;
 
   @Output() movieHendler = new EventEmitter<Movie>();
 
