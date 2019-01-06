@@ -1,18 +1,21 @@
-.container{
+.container {
     width: 100%;
     height: 100%;
-    .header{
+    .header {
         margin: 2rem;
         display: flex;
+        color: #f7bb43;
         flex-direction: row;
         justify-content: space-between;
         align-content: center;
     }
-    .form-container{
+    .form-container {
         margin: 1rem;
-
-        .error{
+        .error {
             color: red;
+        }
+        .label {
+            color: #f7bb43;
         }
     }
 }

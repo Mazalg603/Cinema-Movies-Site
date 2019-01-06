@@ -6,15 +6,16 @@
     width: 20rem;
     height: 25rem;
     overflow: hidden;
-    border-radius: 8px;
     position: relative;
-    background-color:#1e1b26;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+    // background-color:#1e1b26;
+    background-color: #000;
+    // box-shadow: 0 2px 5px 0 rgba(235,218,235,1);
     transition: all 0.25s ease-in;
     border-bottom: 5px solid transparent;
     
     &:hover{
       transform: translateY(-5px);
+      box-shadow: 0 0 1rem 1rem rgba(247,187,67, 0.534);
     }
     .movie-img {
       width:100%;

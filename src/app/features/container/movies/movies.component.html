@@ -1,6 +1,7 @@
 <div class="containers">
   <div class="header">
-    <p class="title">Cinema Movies Site</p>
+    <img class="logo" src="assets/img/movies/imdb-logo-transparent.png"/>
+    <p class="title">Cinema Movies</p>
     <a class="icon" (click)="openDialog()"><i class="fa fa-plus-circle"></i></a>
   </div>
   <div class="content">
@@ -12,14 +13,17 @@
           <i class="fa fa-search" aria-hidden="true"></i>
         </form>
       </div>
-      <div>
-        <div>
+      <div class="filter">
+        <div class="filter-title">
           <p>Filter by genre</p>
           <a id="close" (click)="cancelCheckedGrenres()"><i class="fa fa-close"></i></a>
         </div>
-        <div class="filter">
+        <div class="checkboxs">
           <div class="checkbox" *ngFor="let genre of filteGrenres">
-            <label><input type="checkbox" [(ngModel)]="genre.checked" [value]="genre.value">{{genre.value}}</label>
+            <label class="container">{{genre.value}}
+                <input type="checkbox" [(ngModel)]="genre.checked" [value]="genre.value">
+                <span class="checkmark"></span>
+              </label>
           </div>
         </div>
       </div>
