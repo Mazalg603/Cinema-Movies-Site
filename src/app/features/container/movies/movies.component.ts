@@ -52,7 +52,7 @@ export class MoviesComponent implements OnInit, OnDestroy {
       { value: 'History', checked: false },
       { value: 'War', checked: false }
     ];
-
+    this.errorMessege = this.movieHelper.movieErorrs;
   }
 
   ngOnDestroy() {
