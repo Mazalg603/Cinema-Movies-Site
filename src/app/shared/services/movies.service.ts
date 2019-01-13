@@ -11,7 +11,8 @@ import { map } from 'rxjs/operators';
 })
 export class MoviesService {
 
-  private baseUrl = 'http://www.omdbapi.com/?apikey=ea22e40a&type=movie&';
+  private baseUrl = 'https://www.omdbapi.com/?apikey=ea22e40a&type=movie&';
+
   constructor(private store: Store<AppState>, private http: Http) { }
 
   public getMovies() {
