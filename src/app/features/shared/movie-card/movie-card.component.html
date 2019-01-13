@@ -1,23 +1,23 @@
 <div class="containers">
-	<div class="sub-container">
-		<img class="movie-img" src="assets/img/movies/{{movie.imdbID}}.jpg"/>
-		<div class="content">
-			<div class="top-sub_title">
-				<p class="sub_title">{{movie.Title}}</p>
+	<div class="card-container">
+		<img class="movie-img" src="assets/img/movies/{{movie.imdbID}}.jpg" (error)="errorHandler($event)"/>
+		<div class="card-content">
+			<h5 class="card-title">{{movie.Title}}</h5>
+			<p class="sub-title">
+				{{movie.Director}}
+			</p>
+			<p class="text">
+				{{movie.Genre}}
+			</p>
+			<div class="footer">
+				<p class="text">
+					{{movie.Year}} , {{movie.Runtime}}
+				</p>
 				<div class="button">
 					<ng-content select=".edit"></ng-content>
 					<ng-content select=".trash"></ng-content>
 				</div>
 			</div>
-			<h1 class="title">
-				{{movie.Director}}
-			</h1>
-			<p class="text">
-				{{movie.Genre}}
-			</p>
-			<a href="#0" class="link">
-				{{movie.Year}} , {{movie.Runtime}}
-			</a>
 		</div>
 	</div>
 </div>

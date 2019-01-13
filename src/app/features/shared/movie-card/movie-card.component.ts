@@ -15,4 +15,8 @@ export class MovieCardComponent implements OnInit {
   ngOnInit() {
   }
 
+  public errorHandler(event) {
+    event.target.src = 'assets/img/movies/not-found.jpg';
+  }
+
 }

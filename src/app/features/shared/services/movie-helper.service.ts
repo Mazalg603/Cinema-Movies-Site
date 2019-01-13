@@ -35,7 +35,7 @@ export class MovieHelperService {
       return false;
     }
     if (Number(year) > _thisYear || Number(year) < 1900) {
-      this.movieErorrs.year = 'Year must be between 1900 - ' + _thisYear;
+      this.movieErorrs.year = `Year must be between 1900 - ${_thisYear}`;
       return false;
     }
     return true;

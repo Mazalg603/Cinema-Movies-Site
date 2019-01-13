@@ -17,7 +17,7 @@ export class MoviesService {
   public getMovies() {
     let movieArray = [];
     TITELS.titles.forEach(title => {
-      const movie = this.http.get(this.baseUrl + 't=' + title).pipe(map((res) => res.json()));
+      const movie = this.http.get(`${this.baseUrl}t=${title}`).pipe(map((res) => res.json()));
       movieArray = [...movieArray, movie];
     });
     return forkJoin(movieArray);
