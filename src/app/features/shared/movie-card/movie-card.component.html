@@ -1,7 +1,10 @@
 <div class="containers">
 	<div class="card-container">
-		<img class="movie-img" src="assets/img/movies/{{movie.imdbID}}.jpg" (error)="errorHandler($event)"/>
-		<div class="card-content">
+		<div class="front">
+			<!-- <img class="movie-img" src="assets/img/movies/{{movie.imdbID}}.jpg" (error)="errorHandler($event)"/> -->
+			<img class="movie-img" src="{{movie.Poster}}"/>
+		</div>
+		<div class="card-content back">
 			<h5 class="card-title">{{movie.Title}}</h5>
 			<p class="sub-title">
 				{{movie.Director}}

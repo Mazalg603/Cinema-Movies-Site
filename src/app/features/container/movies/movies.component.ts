@@ -15,7 +15,7 @@ import { Guid } from './../../../shared/utils/guid';
 })
 export class MoviesComponent implements OnInit, OnDestroy {
 
-  public moviesList: Movie[];
+  public moviesList: Movie[] = [];
   public isNewMovie = true;
   public movieObj: Movie = <Movie>{};
   private subGetMoviesList: Subscription;
@@ -50,7 +50,10 @@ export class MoviesComponent implements OnInit, OnDestroy {
       { value: 'Sci-Fi', checked: false },
       { value: 'Western', checked: false },
       { value: 'History', checked: false },
-      { value: 'War', checked: false }
+      { value: 'War', checked: false },
+      { value: 'Mystery', checked: false },
+      { value: 'Family', checked: false },
+      { value: 'Fantasy', checked: false }
     ];
     this.errorMessege = this.movieHelper.movieErorrs;
   }

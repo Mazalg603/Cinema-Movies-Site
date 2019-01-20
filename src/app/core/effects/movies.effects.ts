@@ -22,8 +22,8 @@ export class MoviesEffects {
             this.moviesService.getMovies().pipe(
                 map((movies: Movie[]) => new MoviesActions.LoadMoviesSuccess(movies.map(res => {
                     if (res['imdbID'] !== undefined && res['Response'] !== 'False') {
-                      const { imdbID, Title, Year, Runtime, Genre, Director } = res as any;
-                      return { imdbID, Title, Year, Runtime, Genre, Director };
+                      const { imdbID, Title, Year, Runtime, Genre, Director, Plot, Poster } = res as any;
+                      return { imdbID, Title, Year, Runtime, Genre, Director, Plot, Poster };
                     }
                   }))),
                 catchError(err => of(new MoviesActions.LoadMoviesFail(err)))

@@ -16,9 +16,11 @@ export class SearchPipe implements PipeTransform {
 
     value = value.toLocaleLowerCase();
 
-    return movies.filter((movie) => {
+    const searchResult = movies.filter((movie) => {
       return movie.Title.toLocaleLowerCase().includes(value);
     });
+
+    return searchResult.length > 0 ? searchResult : movies;
   }
 
 }

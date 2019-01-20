@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class GenreFilterPipe implements PipeTransform {
 
-  transform(movies: Movie[], genres: any[]): any {
+  transform(movies?: Movie[], genres?: any[]): any {
     let filtersMovies: any[] = [];
 
     if (!genres) {

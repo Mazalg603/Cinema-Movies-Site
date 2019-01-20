@@ -5,4 +5,6 @@ export interface Movie {
     Runtime: any;
     Genre: any;
     Director: any;
+    Plot: any;
+    Poster: any;
 }
