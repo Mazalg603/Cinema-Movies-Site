@@ -42,7 +42,7 @@
                 font-size: 1rem;
                 font-weight: 300;
                 text-transform: uppercase;
-                color: white;
+                color: white; // text-align: center;
                 font-family: 'Montserrat', sans-serif;
                 overflow-wrap: break-word;
             }
@@ -76,6 +76,38 @@
                 opacity: 1;
                 transform: rotateY(0deg);
             }
+        }
+    }
+    @media screen and (max-width: 37.5em) {
+        //  600px
+        .card-container {
+            width: 15rem;
+            height: 20rem;
+
+            .card-content{
+                .card-title {
+                    font-size: 1.5rem;
+                }
+
+                .sub-title {
+                    font-size: 1.5rem;
+                }
+                .text {
+                    font-size: 1.1rem;
+                }
+
+                .footer {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 26em) {
+        // 416px
+        .card-container {
+            width: 18rem;
+            height: 25rem;
         }
     }
 }

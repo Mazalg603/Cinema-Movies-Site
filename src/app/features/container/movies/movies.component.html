@@ -1,11 +1,14 @@
 <div class="containers">
   <div class="header">
     <img class="logo" src="assets/img/movies/imdb-logo-transparent.png"/>
+    <input type='checkbox' name="manuToggle" [(ngModel)]="manuToggle" id='toggle'/>
+    <label for='toggle' class='manu-button'>=</label>
     <p class="title">Cinema Movies</p>
     <a class="icon" (click)="openDialog()"><i class="fa fa-plus-circle"></i></a>
   </div>
   <div class="content">
-    <div class="side-manu">
+    <div class="side-manu" [class]="manuToggle ? 'full-manu' : 'side-manu'">
+      <label *ngIf="manuToggle" for='toggle' class='exit'>X</label>
       <div class="search">
         <form class="form-inline active-purple-4">
           <input class="form-control form-control-sm mr-3 w-75" type="text" [(ngModel)]="searchTitle" name="searchTitle"
@@ -25,7 +28,7 @@
           </div>
         </div>
       </div>
-
+      <button *ngIf="manuToggle" class="add btn btn-primary" (click)="openDialog()">Add movie</button>
     </div>
     <div class="list" *ngIf="moviesList && moviesList.length > 0">
       <app-movies-list [moviesList]="moviesList | titlesSearch: searchTitle | genreFilter: checkedGrenres()"

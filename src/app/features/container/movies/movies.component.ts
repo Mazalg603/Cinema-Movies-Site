@@ -24,6 +24,7 @@ export class MoviesComponent implements OnInit, OnDestroy {
   public errorMessege: any;
   public searchTitle: string;
   public filteGrenres: any[];
+  public manuToggle = false;
 
   constructor(private store: Store<AppState>, private movieHelper: MovieHelperService) { }
 
@@ -85,6 +86,7 @@ export class MoviesComponent implements OnInit, OnDestroy {
       if (this.isNewMovie && (this.movieHelper.titleIsExist(this.moviesList, movie.Title) === -1)) {
         movie.imdbID = Guid.generate();
         this.store.dispatch(new MoviesActions.AddMovie(movie));
+        this.manuToggle = false;
         this.resetProperties();
       } if (!this.isNewMovie) {
         this.store.dispatch(new MoviesActions.EditMovie(movie));

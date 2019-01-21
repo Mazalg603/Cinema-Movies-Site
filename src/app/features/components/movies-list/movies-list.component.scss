@@ -1,19 +1,25 @@
-.cards-container{
+.cards-container {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    .card-item{
+    .card-item {
         margin: 1rem;
         background-color: transparent;
         cursor: pointer;
-        a{
-            color:#9b9a9a;
+        a {
+            color: #9b9a9a;
         }
-        .edit{
+        .edit {
             margin-right: 1.5rem;
-          }
+        }
+    }
+    @media screen and (max-width: 37.5em) {
+        //  600px
+        .card-item {
+            margin: 0.4rem;
+        }
     }
 }
