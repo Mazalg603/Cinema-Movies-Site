@@ -31,4 +31,23 @@ export class MoviesEffects {
             )
         )
     );
+
+    @Effect()
+    loadMoviesFromBackupDB$: Observable<Action> = this.actions$.pipe(
+        ofType<MoviesActions.LoadMoviesFail>(
+            MoviesActions.MoviesActionTypes.LoadMovies_FAIL
+        ),
+        mergeMap((action: MoviesActions.LoadMoviesFail) =>
+            this.moviesService.getMoviesDB().pipe(
+                map((movies: Movie[]) => new MoviesActions.LoadMoviesSuccess(movies.map(res => {
+                    if (res['imdbID'] !== undefined && res['Response'] !== 'False') {
+                        const { imdbID, Title, Year, Runtime, Genre, Director, Plot, Poster } = res as any;
+                        // Genre = Genre.split(',');
+                      return { imdbID, Title, Year, Runtime, Genre, Director, Plot, Poster };
+                    }
+                  }))),
+                catchError(err => of(new MoviesActions.LoadMoviesFail(err)))
+            )
+        )
+    );
 }

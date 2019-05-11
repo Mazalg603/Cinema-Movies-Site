@@ -1,0 +1,952 @@
+[
+    {
+      "imdbID": "tt0000175",
+      "Title": "A Sea Cave Near Lisbon",
+      "Year": "1896",
+      "Runtime": "1 min",
+      "Genre": "Documentary, Short",
+      "Director": "Henry Short",
+      "Plot": "The water beats relentlessly against the Hell's Mouth (Boca do Inferno), one of the main natural attractions of Lisbon's west coast, filmed from above almost in a vertical plunge onto the deep, rocky ground.",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTI3MjMyZTEtZWZjZC00MzViLTk3YmEtYjVhMjIwNWMzYTM1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1332125",
+      "Title": "A Woman's Way",
+      "Year": "2009",
+      "Runtime": "111 min",
+      "Genre": "Drama",
+      "Director": "Panos H. Koutras",
+      "Plot": "George is released from prison after 14 years of incarceration for a murder he committed in his small Greek village. He spends his first night out in a cheap downtown hotel in Athens. There...",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZGM5MjAyNTMtMmE5ZC00MDQ1LTk1M2EtMzUzNWY4M2M0M2FjXkEyXkFqcGdeQXVyNDg1MzM4NDc@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0146414",
+      "Title": "Aladdin and the Wonderful Lamp",
+      "Year": "1934",
+      "Runtime": "8 min",
+      "Genre": "Animation, Short, Family",
+      "Director": "Ub Iwerks, Shamus Culhane(co-director)",
+      "Plot": "Aladdin is a child labourer who works for a guy that exchanges \"new lamps for old\". This guy swaps a \"new\" lamp for 2-3 replacement old lamps, then brings back the old lamps for Aladdin to ...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTkwMTE3ODAtMTJjYi00YTc1LTkzNmEtNzhhNTlhODg4OTdkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjYzMDY1NTg@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1014759",
+      "Title": "Alice in Wonderland",
+      "Year": "2010",
+      "Runtime": "108 min",
+      "Genre": "Adventure, Family, Fantasy",
+      "Director": "Tim Burton",
+      "Plot": "Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen's reign of terror.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTMwNjAxMTc0Nl5BMl5BanBnXkFtZTcwODc3ODk5Mg@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt4486986",
+      "Title": "All I See Is You",
+      "Year": "2016",
+      "Runtime": "109 min",
+      "Genre": "Drama, Mystery, Romance",
+      "Director": "Marc Forster",
+      "Plot": "A blind woman's relationship with her husband changes when she regains her sight and discovers disturbing details about themselves.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDI5NzU2OTM1MV5BMl5BanBnXkFtZTgwNzU3NzM3MzI@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt6125690",
+      "Title": "Ana, mon amour",
+      "Year": "2017",
+      "Runtime": "125 min",
+      "Genre": "Drama, Romance",
+      "Director": "Cãlin Peter Netzer",
+      "Plot": "Toma and Ana meet as students in the literature faculty and quickly fall in love.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDUyYTUzMzYtMzk0ZS00YzE4LWJmMDYtMTgzN2QyYzUzNWFiXkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0472043",
+      "Title": "Apocalypto",
+      "Year": "2006",
+      "Runtime": "139 min",
+      "Genre": "Action, Adventure, Drama, Thriller",
+      "Director": "Mel Gibson",
+      "Plot": "As the Mayan kingdom faces its decline, a young man is taken on a perilous journey to a world ruled by fear and oppression.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzhmNGMzMDMtZDM0Yi00MmVmLWExYjAtZDhjZjcxZDM0MzJhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1477834",
+      "Title": "Aquaman",
+      "Year": "2018",
+      "Runtime": "143 min",
+      "Genre": "Action, Adventure, Fantasy, Sci-Fi",
+      "Director": "James Wan",
+      "Plot": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt5365036",
+      "Title": "Awasarn Lok Suay",
+      "Year": "2016",
+      "Runtime": "92 min",
+      "Genre": "Thriller",
+      "Director": "Ornusa Donsawai, Pun Homchuen",
+      "Plot": "Care is a famous internet idol who does an online show called \"Summer Trick\" along with her fellow friend, PLE. She is known for being cute. Grace, a former internet idol learns of Care ...",
+      "Poster": "http://ia.media-imdb.com/images/M/MV5BOTFjYjgwMGMtODJjNS00MmIzLWE2NDUtNjdiM2E0YjNhNmI1XkEyXkFqcGdeQXVyNjE5NjMyNjA@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt2798920",
+      "Title": "Annihilation",
+      "Year": "2018",
+      "Runtime": "115 min",
+      "Genre": "Adventure, Drama, Horror, Mystery, Sci-Fi, Thriller",
+      "Director": "Alex Garland",
+      "Plot": "A biologist signs up for a dangerous, secret expedition into a mysterious zone where the laws of nature don't apply.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTk2Mjc2NzYxNl5BMl5BanBnXkFtZTgwMTA2OTA1NDM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt2042455",
+      "Title": "Azorian: The Raising of the K-129",
+      "Year": "2010",
+      "Runtime": "105 min",
+      "Genre": "Documentary",
+      "Director": "Michael White",
+      "Plot": "In 1968 the Soviet ballistic missile submarine K-129 sank in the Central North Pacific. American intelligence located it within weeks of its demise. The CIA crafted a secret program to ...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ0MDkzMDk2OV5BMl5BanBnXkFtZTgwNDcxNjA2MDE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0346550",
+      "Title": "B-Movie: The Shooting of 'Farmhouse Massacre'",
+      "Year": "2002",
+      "Runtime": "70 min",
+      "Genre": "Comedy, Horror",
+      "Director": "Vito Trabucco",
+      "Plot": "Mockumentary of two incompetent film makers and their pursuit in making \"the best B-Movie ever.\"",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2UzN2MwMjAtMTAyMC00ZGVmLTk3YzUtZDJiYWM5MmJkOGZlXkEyXkFqcGdeQXVyNzE5OTA1Mg@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0000141",
+      "Title": "Ballet libella",
+      "Year": "1897",
+      "Runtime": "N/A",
+      "Genre": "Documentary, Short",
+      "Director": "Alice Guy",
+      "Plot": "N/A",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZWEzZjdkZmQtODUxMy00NDc0LTg4YjAtNjY2MzE2NTU1MTcwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0363468",
+      "Title": "Ben Hur",
+      "Year": "2003",
+      "Runtime": "80 min",
+      "Genre": "Animation, Drama, Family",
+      "Director": "William R. Kowalchuk Jr.",
+      "Plot": "When a Jewish prince is betrayed and sent into slavery by a Roman friend, he regains his freedom and comes back for revenge.",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjQzODc1NzUzNV5BMl5BanBnXkFtZTcwNDI4OTQxMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0337875",
+      "Title": "Bin lim mai ching",
+      "Year": "2002",
+      "Runtime": "87 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Siu-Hung Chung",
+      "Plot": "Lon is an assassin who is deformed. The only man he can trust is his brother, Kwan. When Lon kills a police officer, the officer's partner tries to go after him, but lets him go after ...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjA0MTUwMjY3MF5BMl5BanBnXkFtZTcwNTE4NzYyMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt2737304",
+      "Title": "Bird Box",
+      "Year": "2018",
+      "Runtime": "124 min",
+      "Genre": "Drama, Horror, Sci-Fi, Thriller",
+      "Director": "Susanne Bier",
+      "Plot": "Five years after an ominous unseen presence drives most of society to suicide, a mother and her two children make a desperate bid to reach safety.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAzMTI1MjMyN15BMl5BanBnXkFtZTgwNzU5MTE2NjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt9495224",
+      "Title": "Black Mirror: Bandersnatch",
+      "Year": "2018",
+      "Runtime": "90 min",
+      "Genre": "Drama, Mystery, Sci-Fi, Thriller",
+      "Director": "David Slade",
+      "Plot": "In 1984, a young programmer begins to question reality as he works to adapt a fantasy novel into a video game.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjM5MzgzMjM3OF5BMl5BanBnXkFtZTgwMzQ2MzQwNzM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0375611",
+      "Title": "Black",
+      "Year": "2005",
+      "Runtime": "122 min",
+      "Genre": "Drama",
+      "Director": "Sanjay Leela Bhansali",
+      "Plot": "The cathartic tale of a young woman who can't see, hear or talk and the teacher who brings a ray of light into her dark world.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTI5MmE5M2UtZjIzYS00M2JjLWIwNDItYTY2ZWNiODBmYTBiXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1594390",
+      "Title": "Brace for Impact: The Chesley B. Sullenberger Story",
+      "Year": "2010",
+      "Runtime": "48 min",
+      "Genre": "Documentary",
+      "Director": "Daniel H. Birman",
+      "Plot": "Captain Chesley B. Sullenberger made aviation history on January 15th, 2009 when he successfully landed an Airbus A320 on the Hudson River. 155 people walked off the plane that day. In ...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDhiOGE0NzEtY2FjZS00NDM3LWEzOTktMjBlZTJhOGU2NzRiXkEyXkFqcGdeQXVyMTE0NzI2ODI@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1652183",
+      "Title": "Brown Bag Diaries: Ridin' the Blinds in B Minor",
+      "Year": "2010",
+      "Runtime": "15 min",
+      "Genre": "Short, Drama",
+      "Director": "Jason Momoa",
+      "Plot": "A disorganized travel log of a vagabond in search of home.",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ4MTI1MzMwN15BMl5BanBnXkFtZTcwMDE5MzI1Mw@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt4701182",
+      "Title": "Bumblebee",
+      "Year": "2018",
+      "Runtime": "114 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Travis Knight",
+      "Plot": "On the run in the year of 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjUwNjU5NDMyNF5BMl5BanBnXkFtZTgwNzgxNjM2NzM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0038399",
+      "Title": "Casey at the Bat",
+      "Year": "1946",
+      "Runtime": "9 min",
+      "Genre": "Animation, Short, Comedy",
+      "Director": "Jack Kinney",
+      "Plot": "Animated version of classic baseball poem.",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1MTc5MDg3OV5BMl5BanBnXkFtZTcwMDI1NTQzMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0385598",
+      "Title": "Chow lok yuen",
+      "Year": "2003",
+      "Runtime": "91 min",
+      "Genre": "Horror, Drama",
+      "Director": "Wai-Keung Lau",
+      "Plot": "An amusement park reopens after a deadly accident fourteen years prior. But although the park is back in business, that doesn't mean it's safe, and when a young boy goes missing, a group of his friends set out to find him.",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2Yzc3N2QtNzY3YS00NTY5LWJhZjItNjJhMmYxZjZkNjVmXkEyXkFqcGdeQXVyNDY5NjU5MDE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt4192656",
+      "Title": "Chuye Dile Mon",
+      "Year": "2015",
+      "Runtime": "156 min",
+      "Genre": "Romance",
+      "Director": "Shihab Shaheen",
+      "Plot": "Twist of fate brought Abir back to Hridoypur. There, he is determined to get his childhood revenge, but finds his childhood love Nila instead. Which will ultimately get priority in Abir's mind? Revenge or Love?",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgwOTA3ODgzMl5BMl5BanBnXkFtZTgwMTYxODIzNTE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1661199",
+      "Title": "Cinderella",
+      "Year": "2015",
+      "Runtime": "105 min",
+      "Genre": "Drama, Family, Fantasy, Romance",
+      "Director": "Kenneth Branagh",
+      "Plot": "When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjMxODYyODEzN15BMl5BanBnXkFtZTgwMDk4OTU0MzE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt4154664",
+      "Title": "Captain Marvel",
+      "Year": "2019",
+      "Runtime": "123 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Anna Boden, Ryan Fleck",
+      "Plot": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0317268",
+      "Title": "Criminal Minds",
+      "Year": "1998",
+      "Runtime": "88 min",
+      "Genre": "Action, Crime",
+      "Director": "Thomas Baumann",
+      "Plot": "Life on the food chain keeps sinking lower after a vicious, inept gang of psychopaths and misfits seriously bungles a high-stakes heist. Now the hapless ex-con who's left holding the bag ...",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk5MjA0MDUwOF5BMl5BanBnXkFtZTcwNTgwMjUyMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0000150",
+      "Title": "Danse fleur de lotus",
+      "Year": "1897",
+      "Runtime": "1 min",
+      "Genre": "Documentary, Short",
+      "Director": "Alice Guy",
+      "Plot": "N/A",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM3MzJmMDEtNDJhNi00NDIzLThkODYtMjVhODhjNjY1OGIxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0116118",
+      "Title": "Doctor Who",
+      "Year": "1996",
+      "Runtime": "89 min",
+      "Genre": "Adventure, Drama, Sci-Fi",
+      "Director": "Geoffrey Sax",
+      "Plot": "The newly-regenerated Doctor takes on the Master on the turn of the millennium, 31 December 1999.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAyMzcwNjQwMF5BMl5BanBnXkFtZTgwMDU5MjgwMzE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt7108976",
+      "Title": "Detective K: Secret of the Living Dead",
+      "Year": "2018",
+      "Runtime": "120 min",
+      "Genre": "Comedy, Crime",
+      "Director": "Suk-Yoon Kim",
+      "Plot": "When a series of unusual murders occurs, Detective K (KIM Myung-min) and his partner (OH Dal-soo) are once again called into action as they discover a trail of bodies with mysterious bite marks.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWM5OTBmMjktNGJjNC00ODgxLWE0MzAtMGY1MDk3NGQ1M2IxXkEyXkFqcGdeQXVyMjI0MDI5Mg@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt4143804",
+      "Title": "Echo Jew Gong Lok",
+      "Year": "2012",
+      "Runtime": "81 min",
+      "Genre": "Animation, Adventure",
+      "Director": "Kompin Kemgumnird",
+      "Plot": "After getting himself lost in the jungle, Sam is rescued by Jorpe, and his older sister Norva. After uncovering the truth about a government program that will destroy the ozone layer, they ...",
+      "Poster": "http://ia.media-imdb.com/images/M/MV5BNjQ1ODgzODUyNl5BMl5BanBnXkFtZTgwMTA4NjIzNzE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0000192",
+      "Title": "Ella Lola, a la Trilby",
+      "Year": "1898",
+      "Runtime": "N/A",
+      "Genre": "Short",
+      "Director": "James H. White",
+      "Plot": "Dancer Ella Lola dances a routine based on the famous character of \"Trilby\".",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDgzZWZlNWQtNTE5YS00ODRmLTkyYTAtOGIyZDAzNGYwYmVhXkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt5886046",
+      "Title": "Escape Room",
+      "Year": "2019",
+      "Runtime": "99 min",
+      "Genre": "Action, Adventure, Drama, Horror, Mystery, Sci-Fi, Thriller",
+      "Director": "Adam Robitel",
+      "Plot": "Six strangers find themselves in a maze of deadly mystery rooms, and must use their wits to survive.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ2NDMwMTY3MF5BMl5BanBnXkFtZTgwNDg5OTc1NjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0289199",
+      "Title": "Gefsi apo... Ellada!",
+      "Year": "1980",
+      "Runtime": "138 min",
+      "Genre": "Comedy",
+      "Director": "Giorgos Lazaridis",
+      "Plot": "N/A",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BM2Q4N2NjOGQtY2RiNC00NTNlLWIzZjQtNjFkYTc3MTM5N2I0XkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt6823368",
+      "Title": "Glass",
+      "Year": "2019",
+      "Runtime": "129 min",
+      "Genre": "Drama, Sci-Fi, Thriller",
+      "Director": "M. Night Shyamalan",
+      "Plot": "Security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTA2MjI5OV5BMl5BanBnXkFtZTgwNzkxMjU4NjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt5687334",
+      "Title": "Godard Mon Amour",
+      "Year": "2017",
+      "Runtime": "107 min",
+      "Genre": "Biography, Comedy, Drama, Romance",
+      "Director": "Michel Hazanavicius",
+      "Plot": "In 1967, during the making of \"La Chinoise,\" film director Jean-Luc Godard falls in love with 19-year-old actress Anne Wiazemsky and marries her.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTNkNGQ0MDctNGNjMS00Y2NhLTk4MTItYjMyMDczZWVjMTJkXkEyXkFqcGdeQXVyNjc0MzY3NTA@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0000304",
+      "Title": "Grandma's Reading Glass",
+      "Year": "1900",
+      "Runtime": "2 min",
+      "Genre": "Short",
+      "Director": "George Albert Smith",
+      "Plot": "A boy looks through glasses at various objects, seen magnified.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjA3NGU2YzktZmI5Ni00NTVhLWJlY2EtYzA2MzNkY2JlNTUxXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt6966692",
+      "Title": "Green Book",
+      "Year": "2018",
+      "Runtime": "130 min",
+      "Genre": "Biography, Comedy, Drama, Music",
+      "Director": "Peter Farrelly",
+      "Plot": "A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0116477",
+      "Title": "Hamlet",
+      "Year": "1996",
+      "Runtime": "242 min",
+      "Genre": "Drama",
+      "Director": "Kenneth Branagh",
+      "Plot": "Hamlet, Prince of Denmark, returns home to find his father murdered and his mother remarrying the murderer, his uncle. Meanwhile, war is brewing.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjA4OTM4NzMxOF5BMl5BanBnXkFtZTcwMDY1OTM2MQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0167190",
+      "Title": "Hellboy",
+      "Year": "2004",
+      "Runtime": "122 min",
+      "Genre": "Action, Fantasy, Horror, Sci-Fi",
+      "Director": "Guillermo del Toro",
+      "Plot": "A demon, raised from infancy after being conjured by and rescued from the Nazis, grows up to become a defender against the forces of darkness.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTc1ZWY0ZTEtZTVmNi00MTg0LTg4NmQtZTI4OWNiMmQ0MWZkXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0077651",
+      "Title": "Halloween",
+      "Year": "1978",
+      "Runtime": "91 min",
+      "Genre": "Horror, Thriller",
+      "Director": "John Carpenter",
+      "Plot": "Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt7784604",
+      "Title": "Hereditary",
+      "Year": "2018",
+      "Runtime": "127 min",
+      "Genre": "Drama, Horror, Mystery, Thriller",
+      "Director": "Ari Aster",
+      "Plot": "After the family matriarch passes away, a grieving family is haunted by tragic and disturbing occurrences, and begin to unravel dark secrets.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTU5MDg3OGItZWQ1Ny00ZGVmLTg2YTUtMzBkYzQ1YWIwZjlhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0107086",
+      "Title": "Hated: GG Allin & the Murder Junkies",
+      "Year": "1993",
+      "Runtime": "52 min",
+      "Genre": "Documentary, Biography, Music",
+      "Director": "Todd Phillips",
+      "Plot": "Documentary about notorious punk rock performer GG Allin.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWZiMWZjMGEtMWQ5NC00NjFiLWEyMDctYmQyNDgyNzQxMjk4XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt2386490",
+      "Title": "How to Train Your Dragon: The Hidden World",
+      "Year": "2019",
+      "Runtime": "104 min",
+      "Genre": "Animation, Action, Adventure, Comedy, Family, Fantasy",
+      "Director": "Dean DeBlois",
+      "Plot": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjIwMDIwNjAyOF5BMl5BanBnXkFtZTgwNDE1MDc2NTM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0135673",
+      "Title": "I Theia Apo to Chicago",
+      "Year": "1957",
+      "Runtime": "72 min",
+      "Genre": "Comedy",
+      "Director": "Alekos Sakellarios",
+      "Plot": "Aunt Calliopi returns to Greece from Chicago after 30 years and plans to marry off her nieces.",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTkzNjE3ZDctODA5MS00NjVmLTgwYjUtOTRlZThiNDUwNzRjXkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0267626",
+      "Title": "K-19: The Widowmaker",
+      "Year": "2002",
+      "Runtime": "138 min",
+      "Genre": "Drama, History, Thriller, War",
+      "Director": "Kathryn Bigelow",
+      "Plot": "When Russia's first nuclear submarine malfunctions on its maiden voyage, the crew must race to save the ship and prevent a nuclear disaster.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWY2YjIwNDAtYjQwOC00YjY5LTk2MDUtMjY4ZDdiMjdlNjIzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1156395",
+      "Title": "K-20: The Fiend with Twenty Faces",
+      "Year": "2008",
+      "Runtime": "137 min",
+      "Genre": "Action, Adventure, Crime, Drama, Sci-Fi",
+      "Director": "Shimako Sato",
+      "Plot": "Set in a fictional Japanese city in 1949, a master criminal hones in on his latest victim.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzk3NjhiZjItZDlmNS00ODc4LWE1MWMtMmJmMGYwN2MwMWFiXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1909796",
+      "Title": "K-On! The Movie",
+      "Year": "2011",
+      "Runtime": "110 min",
+      "Genre": "Animation, Adventure, Comedy, Family, Music",
+      "Director": "Naoko Yamada",
+      "Plot": "In this continuation of the K-On anime, the girls from the band \"After School Tea Time\" go on a trip to London.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDM5YzJiMzAtNTIwZS00YjIzLTg3MGYtYmNlZmVjNjMxMmI3XkEyXkFqcGdeQXVyMTA0OTc2NzQ@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1612558",
+      "Title": "L'aveugle fin de siècle",
+      "Year": "1898",
+      "Runtime": "1 min",
+      "Genre": "Short, Comedy",
+      "Director": "Alice Guy",
+      "Plot": "N/A",
+      "Poster": "http://ia.media-imdb.com/images/M/MV5BMTM0Mzk3OTA0N15BMl5BanBnXkFtZTcwMDAxMDQyMw@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt3062976",
+      "Title": "Learning to Drive",
+      "Year": "2014",
+      "Runtime": "90 min",
+      "Genre": "Comedy, Drama, Romance",
+      "Director": "Isabel Coixet",
+      "Plot": "As her marriage dissolves, a Manhattan writer takes driving lessons from a Sikh instructor with marriage troubles of his own. In each other's company they find the courage to get back on the road and the strength to take the wheel.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ1ODkwMzMzNl5BMl5BanBnXkFtZTgwOTAzMTMzNTE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt9099102",
+      "Title": "No Escape Room",
+      "Year": "2018",
+      "Runtime": "85 min",
+      "Genre": "Horror, Thriller",
+      "Director": "Alex Merkin",
+      "Plot": "When an escape room attraction turns from a fun bonding activity to a dangerous paranormal experience, a father and daughter must flee from an angry spirit.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTNiNjM0YjItNjJmMy00MDdhLWFmZGItZjA0ODhmMmM4ZGNhXkEyXkFqcGdeQXVyNzg3NjQyOQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0119590",
+      "Title": "Ma Vie en Rose",
+      "Year": "1997",
+      "Runtime": "88 min",
+      "Genre": "Drama",
+      "Director": "Alain Berliner",
+      "Plot": "Ludovic is a transgender girl who is coming out. She talks of marrying her neighbor's son and can not understand why everyone is so surprised about it. Her family and neighbors struggle ...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY3ODY1MTkxN15BMl5BanBnXkFtZTYwNjQwMjI5._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt2884018",
+      "Title": "Macbeth",
+      "Year": "2015",
+      "Runtime": "113 min",
+      "Genre": "Drama, History, War",
+      "Director": "Justin Kurzel",
+      "Plot": "Macbeth, the Thane of Glamis, receives a prophecy from a trio of witches that one day he will become King of Scotland. Consumed by ambition and spurred to action by his wife, Macbeth murders his king and takes the throne for himself.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzgyNDczMjU4NV5BMl5BanBnXkFtZTgwMTUwMDI3NjE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt6648404",
+      "Title": "Mon Mon Mon Monsters",
+      "Year": "2017",
+      "Runtime": "113 min",
+      "Genre": "Horror",
+      "Director": "Giddens Ko",
+      "Plot": "A group of teenagers capture a man-eating monster.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzllNjFjYjYtZDA3MC00YjQ3LTk2ZjQtMmQ3YTUxMjBjNDRiXkEyXkFqcGdeQXVyNzY1NDA4NTc@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0166924",
+      "Title": "Mulholland Drive",
+      "Year": "2001",
+      "Runtime": "147 min",
+      "Genre": "Drama, Mystery, Thriller",
+      "Director": "David Lynch",
+      "Plot": "After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNWM2MDZmMDgtYjViOS00YzBmLWE4YzctMDMyYTQ2YTc4MmVkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1670345",
+      "Title": "Now You See Me",
+      "Year": "2013",
+      "Runtime": "115 min",
+      "Genre": "Crime, Mystery, Thriller",
+      "Director": "Louis Leterrier",
+      "Plot": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY0NDY3MDMxN15BMl5BanBnXkFtZTcwOTM5NzMzOQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt2328900",
+      "Title": "Mary Queen of Scots",
+      "Year": "2018",
+      "Runtime": "124 min",
+      "Genre": "Biography, Drama, History",
+      "Director": "Josie Rourke",
+      "Plot": "Mary Stuart's attempt to overthrow her cousin Elizabeth I, Queen of England, finds her condemned to years of imprisonment before facing execution.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDVmOGI4MTMtYmNmNC00MTliLTlkYjQtYmU2N2EyNDk2YTAwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt2388771",
+      "Title": "Mowgli: Legend of the Jungle",
+      "Year": "2018",
+      "Runtime": "104 min",
+      "Genre": "Adventure, Drama, Fantasy",
+      "Director": "Andy Serkis",
+      "Plot": "A human child raised by wolves must face off against a menacing tiger named Shere Khan, as well as his own origins.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt4912910",
+      "Title": "Mission: Impossible - Fallout",
+      "Year": "2018",
+      "Runtime": "147 min",
+      "Genre": "Action, Adventure, Thriller",
+      "Director": "Christopher McQuarrie",
+      "Plot": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjRlZmM0ODktY2RjNS00ZDdjLWJhZGYtNDljNWZkMGM5MTg0XkEyXkFqcGdeQXVyNjAwMjI5MDk@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0197246",
+      "Title": "O anthropos pou gyrise apo ta piata!",
+      "Year": "1969",
+      "Runtime": "75 min",
+      "Genre": "Comedy",
+      "Director": "Panos Glykofrydis",
+      "Plot": "N/A",
+      "Poster": "http://ia.media-imdb.com/images/M/MV5BZDAzZjI5MmItOTAxNi00NWM2LTlmNWQtODE2NzgwYmFlYjE4XkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0181294",
+      "Title": "O anthropos pou gyrise apo ti zesti",
+      "Year": "1972",
+      "Runtime": "89 min",
+      "Genre": "Comedy, Drama",
+      "Director": "Kostas Karagiannis",
+      "Plot": "Loukas has been living in Africa for many many years, working hard to send money to his family who has stayed in Greece. When the time has come to return home, he decides to surprise his ...",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOWI4YTg2ZTMtZTE4Ny00ZTFiLTgwNGMtNzFiZDRiYzU1YWI1XkEyXkFqcGdeQXVyMjA1ODU0OTk@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0089925",
+      "Title": "Robbery Under Arms",
+      "Year": "1985",
+      "Runtime": "141 min",
+      "Genre": "Action, Adventure, Crime",
+      "Director": "Donald Crombie, Ken Hannam",
+      "Plot": "Fourth adaptation and first made for television of the classic Australian bushranger novel \"Robbery Under Arms\" by Rolf Boldrewood. Made by the South Australian Film Corporation during the ...",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzOTU1NjE5OV5BMl5BanBnXkFtZTcwMTYxODA4MQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt6155172",
+      "Title": "Roma",
+      "Year": "2018",
+      "Runtime": "135 min",
+      "Genre": "Drama",
+      "Director": "Alfonso Cuarón",
+      "Plot": "A year in the life of a middle-class family's maid in Mexico City in the early 1970s.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTU0OTc3ODk4Ml5BMl5BanBnXkFtZTgwMzM4NzI5NjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt3585056",
+      "Title": "Secreto de Confesión",
+      "Year": "2013",
+      "Runtime": "96 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "Henry Rivero",
+      "Plot": "A homicide detective traumatized by the death of his father has to investigate a series of strange murders, while the hit man responsible for them confesses to a priest that he will be his next victim.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY4OTQzMzM3N15BMl5BanBnXkFtZTgwOTYyNjQ4MTE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0437179",
+      "Title": "See No Evil",
+      "Year": "2006",
+      "Runtime": "84 min",
+      "Genre": "Action, Horror, Thriller",
+      "Director": "Gregory Dark",
+      "Plot": "A group of delinquents are sent to clean the Blackwell Hotel. Little do they know reclusive psychopath Jacob Goodnight has holed away in the rotting hotel. When one of the teens is captured, those who remain - a group that includes the cop who put a bullet in Goodnight's head four years ago - band together to survive against the brutal killer.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg3MTgxNDI1MV5BMl5BanBnXkFtZTcwMTkzMjYzMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1135985",
+      "Title": "Sex Drive",
+      "Year": "2008",
+      "Runtime": "109 min",
+      "Genre": "Adventure, Comedy, Romance",
+      "Director": "Sean Anders",
+      "Plot": "A high school senior drives cross-country with his best friends to hook up with a babe he met online.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjE0MTcyMzg5M15BMl5BanBnXkFtZTcwMDUyOTA4MQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt4972582",
+      "Title": "Split",
+      "Year": "2016",
+      "Runtime": "117 min",
+      "Genre": "Horror, Thriller",
+      "Director": "M. Night Shyamalan",
+      "Plot": "Three girls are kidnapped by a man with a diagnosed 23 distinct personalities. They must try to escape before the apparent emergence of a frightful new 24th.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTJiNGM2NjItNDRiYy00ZjY0LTgwNTItZDBmZGRlODQ4YThkL2ltYWdlXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt2375417",
+      "Title": "Playdate",
+      "Year": "2012",
+      "Runtime": "82 min",
+      "Genre": "Thriller",
+      "Director": "Andrew C. Erin",
+      "Plot": "After befriending a family that has just moved in next door, Emily Valentine begins to realize that these new neighbors are hiding a deadly secret. And when her daughter is \"accidentally\" ...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjc5NjUwNjUxN15BMl5BanBnXkFtZTgwNzA4MTc4MTE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0791338",
+      "Title": "Stan",
+      "Year": "2006",
+      "Runtime": "59 min",
+      "Genre": "Biography",
+      "Director": "Jon Sen",
+      "Plot": "Based on the Neil Brand's critically acclaimed radio play of the same name, the drama follows Stan Laurel's last visit to his dying friend and comedy partner Oliver 'Babe' Hardy and Stan's ...",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3MDk1NTg5MV5BMl5BanBnXkFtZTgwMjQ3NzkwMzE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0069197",
+      "Title": "The Call of the Wild",
+      "Year": "1972",
+      "Runtime": "100 min",
+      "Genre": "Adventure, Family",
+      "Director": "Ken Annakin",
+      "Plot": "A house dog is abducted and brought to the north as a sled dog.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg2NTUyMTMwMl5BMl5BanBnXkFtZTcwNDM1NTYyMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0000300",
+      "Title": "The Enchanted Drawing",
+      "Year": "1900",
+      "Runtime": "2 min",
+      "Genre": "Animation, Short, Comedy",
+      "Director": "J. Stuart Blackton",
+      "Plot": "A cartoonist defies reality when he draws objects that become three-dimensional after he lifts them off his sketch pad.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGEzZTQ4YjctZThlZi00ODIxLWJjNzctYjliMzc1YTE2ZjFiXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0404032",
+      "Title": "The Exorcism of Emily Rose",
+      "Year": "2005",
+      "Runtime": "119 min",
+      "Genre": "Drama, Horror, Thriller",
+      "Director": "Scott Derrickson",
+      "Plot": "A lawyer takes on a negligent homicide case involving a priest who performed an exorcism on a young girl.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTI2NTM5MjQ0Nl5BMl5BanBnXkFtZTcwNDAxNjAzMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt5083738",
+      "Title": "The Favourite",
+      "Year": "2018",
+      "Runtime": "119 min",
+      "Genre": "Biography, Drama, History",
+      "Director": "Yorgos Lanthimos",
+      "Plot": "In early 18th century England, a frail Queen Anne occupies the throne and her close friend, Lady Sarah, governs the country in her stead. When a new servant, Abigail, arrives, her charm endears her to Sarah.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg1NzQwMDQxNV5BMl5BanBnXkFtZTgwNDg2NDYyNjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0273244",
+      "Title": "The Gospel According to Philip K. Dick",
+      "Year": "2001",
+      "Runtime": "80 min",
+      "Genre": "Documentary",
+      "Director": "Mark Steensland",
+      "Plot": "Philip K. Dick novels and stories continue to inspire a filmmakers, writers, technophiles and philosophers. But for the last ten years of his life, he inhabited a reality stranger than the fiction he created.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg0MTIyOTExMV5BMl5BanBnXkFtZTcwNDU1ODMyMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0016939",
+      "Title": "The Great K & A Train Robbery",
+      "Year": "1926",
+      "Runtime": "53 min",
+      "Genre": "Western",
+      "Director": "Lewis Seiler",
+      "Plot": "Cullen has hired Tom to try and stop the robberies on his railroad. Knowing Cullen's secretary Holt is tipping off the gang, Tom works undercover by posing as a highwayman. To help him ...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTk4OTMyMzMxNl5BMl5BanBnXkFtZTgwMjM3Njk5MTE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt4003440",
+      "Title": "The House That Jack Built",
+      "Year": "2018",
+      "Runtime": "152 min",
+      "Genre": "Crime, Drama, Horror",
+      "Director": "Lars von Trier",
+      "Plot": "The story follows Jack, a highly intelligent serial killer, over the course of twelve years, and depicts the murders that really develop his inner madman.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDQ4Y2E5ODktODI5ZS00ZGVkLTgyZTEtNWY1ZjNiZTFjOTE3XkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0842926",
+      "Title": "The Kids Are All Right",
+      "Year": "2010",
+      "Runtime": "106 min",
+      "Genre": "Comedy, Drama, Romance",
+      "Director": "Lisa Cholodenko",
+      "Plot": "Two children conceived by artificial insemination bring their biological father into their non-traditional family life.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjE4NTMwNDg5MF5BMl5BanBnXkFtZTcwNDY2ODE0Mw@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0079450",
+      "Title": "The Legacy",
+      "Year": "1978",
+      "Runtime": "102 min",
+      "Genre": "Horror",
+      "Director": "Richard Marquand",
+      "Plot": "A millionaire, a million-dollar prostitute, a star-maker, a nation-killer, a woman whose lusts are as cold as graveyard snow...Five of the most powerful people in the world, and Maggie ...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2Q2MzMzMjItMTBkMi00YzMyLTk4NTktOTc3OWM4ZTgyNmQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0315297",
+      "Title": "Twisted",
+      "Year": "2004",
+      "Runtime": "97 min",
+      "Genre": "Crime, Drama, Mystery, Thriller",
+      "Director": "Philip Kaufman",
+      "Plot": "Jessica, whose father killed her mother and committed suicide, is a police officer. While investigating a murder, she finds herself in the center of her own investigation, when her former lovers start being murdered.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg1OTk4NDA3M15BMl5BanBnXkFtZTcwMDYzOTQyMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1493287",
+      "Title": "Web of Lies",
+      "Year": "2009",
+      "Runtime": "90 min",
+      "Genre": "Crime, Mystery, Thriller",
+      "Director": "Tristan Dubois",
+      "Plot": "A thriller about a computer security specialist who is accused of bank fraud and has to clear her name with the help of the FBI.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjA1MDE1MDQ4MF5BMl5BanBnXkFtZTgwOTg4ODY0NzE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0379889",
+      "Title": "The Merchant of Venice",
+      "Year": "2004",
+      "Runtime": "131 min",
+      "Genre": "Drama, Romance",
+      "Director": "Michael Radford",
+      "Plot": "In 16th century Venice, when a merchant must default on a large loan from an abused Jewish moneylender for a friend with romantic ambitions, the bitterly vengeful creditor demands a gruesome payment instead.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMGJiNGUxZGYtM2U2YS00ZjJlLThlNjQtYTVkNWUxZGRmYTk4XkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt7959026",
+      "Title": "The Mule",
+      "Year": "2018",
+      "Runtime": "116 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "Clint Eastwood",
+      "Plot": "A 90-year-old horticulturist and Korean War veteran turns drug mule for a Mexican cartel.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTc1OTc5NzA4OF5BMl5BanBnXkFtZTgwOTAzMzE2NjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0053631",
+      "Title": "The Pioneers",
+      "Year": "1960",
+      "Runtime": "109 min",
+      "Genre": "Adventure",
+      "Director": "Marcel Camus",
+      "Plot": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDRmMjM1ZjUtYzAwYS00NmQ5LTlhYmEtNzBhMzZiNGRhMTlmXkEyXkFqcGdeQXVyMjQzMzQzODY@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0258816",
+      "Title": "The Reckoning",
+      "Year": "2002",
+      "Runtime": "112 min",
+      "Genre": "Crime, Drama, Mystery",
+      "Director": "Paul McGuigan",
+      "Plot": "A priest on the lam takes up with a traveling band of actors, who then discover a murder has occurred and try to solve it by recreating the crime in a play.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTI3NTY5Mzk0N15BMl5BanBnXkFtZTcwOTA1MDUyMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1758810",
+      "Title": "The Snowman",
+      "Year": "2017",
+      "Runtime": "119 min",
+      "Genre": "Crime, Drama, Mystery, Thriller",
+      "Director": "Tomas Alfredson",
+      "Plot": "Detective Harry Hole investigates the disappearance of a woman whose scarf is found wrapped around an ominous-looking snowman.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDg1NjYyMTEyOF5BMl5BanBnXkFtZTgwNzY4MDMyMzI@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt6772950",
+      "Title": "Truth or Dare",
+      "Year": "2018",
+      "Runtime": "100 min",
+      "Genre": "Horror, Thriller",
+      "Director": "Jeff Wadlow",
+      "Plot": "A harmless game of Truth or Dare among friends turns deadly when someone -- or something -- begins to punish those who tell a lie or refuse the dare.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOGU2YTZmMjYtZDUwYi00NTc1LTlkMjAtM2ViZDkzOTlhNGNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1683890",
+      "Title": "The World According to Ion B.",
+      "Year": "2009",
+      "Runtime": "60 min",
+      "Genre": "Documentary",
+      "Director": "Alexander Nanau",
+      "Plot": "Ion Barladeanu is on his way to becoming an important contemporary artist, but in May 2008 he was still a tramp on the streets of Bucharest.",
+      "Poster": "http://ia.media-imdb.com/images/M/MV5BMzg4MjQ1MWQtNzFhZC00YjBkLWE3YzYtZTAxZmZiNzZmNzQwXkEyXkFqcGdeQXVyMjA2MTA5NDU@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1665792",
+      "Title": "Titans",
+      "Year": "2010",
+      "Runtime": "15 min",
+      "Genre": "Short, Action, Adventure, War",
+      "Director": "Nick Siegenthaler",
+      "Plot": "Russia, 1921. Two friends fight their way through a war-torn land, in search of sanctuary. While the Civil War is almost at an end, their battle has just begun.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjI2NjY3NzQ2NV5BMl5BanBnXkFtZTgwMDEzMTc1MDE@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0094632",
+      "Title": "Transformations",
+      "Year": "1988",
+      "Runtime": "84 min",
+      "Genre": "Horror, Sci-Fi",
+      "Director": "Jay Kamen",
+      "Plot": "Wolfgang is traveling in outer space when a monster, which he sees as a beautiful woman, appears in his spaceship and makes love with him. Then the ship is forced to land on a planet which ...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzU0ODlhMjItZGM1Yy00OTMyLWE3MjMtZGJiNDgyZWFhMWU4XkEyXkFqcGdeQXVyMTQ2MjQyNDc@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0094213",
+      "Title": "Uncle Tom's Cabin",
+      "Year": "1987",
+      "Runtime": "110 min",
+      "Genre": "Drama",
+      "Director": "Stan Lathan",
+      "Plot": "The life of an aging black slave, Tom, and the people with whom he interacts.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTgyNzk3NzMxMl5BMl5BanBnXkFtZTcwNjM0MDYxMQ@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1294162",
+      "Title": "Upside",
+      "Year": "2010",
+      "Runtime": "90 min",
+      "Genre": "Drama",
+      "Director": "Kenneth Horstmann",
+      "Plot": "A concussion causes a high school lacrosse player to see everything upside-down.",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDUyMzM0MTQ2NF5BMl5BanBnXkFtZTcwNDg0ODM3Mw@@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt1270797",
+      "Title": "Venom",
+      "Year": "2018",
+      "Runtime": "112 min",
+      "Genre": "Action, Sci-Fi, Thriller",
+      "Director": "Ruben Fleischer",
+      "Plot": "A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt6266538",
+      "Title": "Vice",
+      "Year": "2018",
+      "Runtime": "132 min",
+      "Genre": "Biography, Comedy, Drama",
+      "Director": "Adam McKay",
+      "Plot": "The story of Dick Cheney, an unassuming bureaucratic Washington insider, who quietly wielded immense power as Vice President to George W. Bush, reshaping the country and the globe in ways that we still feel today.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY1NjM0MzgxMV5BMl5BanBnXkFtZTgwNDc4NTY0NjM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0000174",
+      "Title": "Výstavní párkar a lepic plakátù",
+      "Year": "1898",
+      "Runtime": "1 min",
+      "Genre": "Short, Comedy",
+      "Director": "Jan Krízenecký",
+      "Plot": "N/A",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGE4ZWNjM2MtY2M2Mi00MDkyLTljMTQtZDgzNmMxNDkwNDkyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+    },
+    {
+      "imdbID": "tt0264464",
+      "Title": "Catch Me If You Can",
+      "Year": "2002",
+      "Runtime": "141 min",
+      "Genre": "Biography, Crime, Drama",
+      "Director": "Steven Spielberg",
+      "Plot": "A seasoned FBI agent pursues Frank Abagnale Jr. who, before his 19th birthday, successfully forged millions of dollars' worth of checks while posing as a Pan Am pilot, a doctor, and a legal prosecutor.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_SX300.jpg"
+    }
+  ]
